@@ -1,7 +1,7 @@
-package teeee;
+﻿package teeee;
 
 /**
- * Java枚举用法测试
+ * Java枚举用法  测试
  * <p>
  * Created by lxk on 2016/12/15
  */
@@ -18,7 +18,7 @@ public class EnumTest {
 		for (SimpleEnum simpleEnum : SimpleEnum.values()) {
 			System.out.println(simpleEnum + "  ordinal  " + simpleEnum.ordinal());
 		}
-		System.out.println("------------------");
+		System.out.println("-------------===================================================-----");
 		for (TYPE type : TYPE.values()) {
 			System.out.println("type = " + type + "    type.name = " + type.name() + "   typeName = "
 					+ type.getTypeName() + "   ordinal = " + type.ordinal());
